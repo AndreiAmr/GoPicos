@@ -7,6 +7,8 @@ import * as S from './styles';
 export function OnBoarding() {
   const theme = useTheme();
 
+  console.log('salvce');
+
   return (
     <S.Container>
       <StatusBar
