@@ -4,7 +4,8 @@ import { SizeType, WeightType } from '.';
 
 enum SizeEnum {
   lg = 45,
-  md = 20,
+  md = 30,
+  'md2' = 20,
   sm = 12,
   xsm = 11,
 }

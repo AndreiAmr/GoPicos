@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './styles';
 
-export type SizeType = 'lg' | 'md' | 'sm' | 'xsm';
+export type SizeType = 'lg' | 'md' | 'md2' | 'sm' | 'xsm';
 export type WeightType = 'normal' | 'medium' | 'bold';
 
 interface TextProps {

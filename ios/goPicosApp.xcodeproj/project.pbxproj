@@ -14,6 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-goPicosApp-goPicosAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-goPicosApp-goPicosAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B2EB6F51286905E800B5E2A6 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = B2EB6F50286905E700B5E2A6 /* Fonts */; };
 		DB814C8C21F942D7B09D2D3B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 146B134047324EC18C703892 /* Roboto-Bold.ttf */; };
 		DDE0404F64024B8EAF0FBB42 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 158361322682411995FD2036 /* Roboto-Regular.ttf */; };
 		E59F2C1BD774480FAB239500 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49D4ED3BADA3487496DD0336 /* Roboto-Medium.ttf */; };
@@ -39,16 +40,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = goPicosApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = goPicosApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = goPicosApp/main.m; sourceTree = "<group>"; };
-		146B134047324EC18C703892 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/presentation/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		158361322682411995FD2036 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/presentation/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		146B134047324EC18C703892 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/presentation/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		158361322682411995FD2036 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/presentation/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-goPicosApp-goPicosAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goPicosApp-goPicosAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-goPicosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goPicosApp.debug.xcconfig"; path = "Target Support Files/Pods-goPicosApp/Pods-goPicosApp.debug.xcconfig"; sourceTree = "<group>"; };
-		49D4ED3BADA3487496DD0336 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/presentation/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		49D4ED3BADA3487496DD0336 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/presentation/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-goPicosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goPicosApp.release.xcconfig"; path = "Target Support Files/Pods-goPicosApp/Pods-goPicosApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-goPicosApp-goPicosAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goPicosApp-goPicosAppTests.debug.xcconfig"; path = "Target Support Files/Pods-goPicosApp-goPicosAppTests/Pods-goPicosApp-goPicosAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-goPicosApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goPicosApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = goPicosApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-goPicosApp-goPicosAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goPicosApp-goPicosAppTests.release.xcconfig"; path = "Target Support Files/Pods-goPicosApp-goPicosAppTests/Pods-goPicosApp-goPicosAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2EB6F50286905E700B5E2A6 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 		13B07FAE1A68108700A75B9A /* goPicosApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2EB6F50286905E700B5E2A6 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -163,7 +166,6 @@
 				158361322682411995FD2036 /* Roboto-Regular.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +265,7 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				DB814C8C21F942D7B09D2D3B /* Roboto-Bold.ttf in Resources */,
+				B2EB6F51286905E800B5E2A6 /* Fonts in Resources */,
 				E59F2C1BD774480FAB239500 /* Roboto-Medium.ttf in Resources */,
 				DDE0404F64024B8EAF0FBB42 /* Roboto-Regular.ttf in Resources */,
 			);
