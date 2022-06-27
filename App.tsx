@@ -1,3 +1,4 @@
+import { NavigationContainer } from '@react-navigation/native';
 import React, { useContext } from 'react';
 import { ThemeProvider } from 'styled-components/native';
 import {
@@ -5,6 +6,7 @@ import {
   AppThemeContextProvider,
 } from './src/core/theme/context/theme.context';
 import { theme } from './src/core/theme/theme';
+import { AppRoutes } from './src/infra/routes/AppRoutes';
 import { OnBoarding } from './src/presentation/pages/OnBoarding';
 
 const StyledComponentsTheme = () => {
@@ -12,16 +14,18 @@ const StyledComponentsTheme = () => {
 
   return (
     <ThemeProvider theme={theme[colorScheme]}>
-      <OnBoarding />
+      <AppRoutes />
     </ThemeProvider>
   );
 };
 
 const App = () => {
   return (
-    <AppThemeContextProvider>
-      <StyledComponentsTheme />
-    </AppThemeContextProvider>
+    <NavigationContainer>
+      <AppThemeContextProvider>
+        <StyledComponentsTheme />
+      </AppThemeContextProvider>
+    </NavigationContainer>
   );
 };
 export default App;
